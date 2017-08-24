@@ -1,4 +1,5 @@
-sudo yum install httpd -y
-sudo yum install mod_ssl -y
-sudo service httpd start
+yum install httpd -y
+yum install mod_ssl -y
+chkconfig httpd on
+service httpd start
 
