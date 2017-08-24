@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 yum install httpd -y
+yum install php -y
 yum install mod_ssl -y
 
 chkconfig httpd on
